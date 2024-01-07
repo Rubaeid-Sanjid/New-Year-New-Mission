@@ -1,0 +1,13 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.banner{
+    height: 500px;
+    max-width: 70%;
+    background-image: url('images/Banner\ Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
