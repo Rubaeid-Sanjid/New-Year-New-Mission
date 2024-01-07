@@ -2,12 +2,37 @@
     margin: 0;
     padding: 0;
 } */
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
 
-.banner{
-    height: 500px;
-    max-width: 70%;
-    background-image: url('images/Banner\ Image.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.banner {
+  height: 600px;
+  max-width: 70%;
+  margin: auto;
+  background-image: url("images/Banner\ Image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+}
+
+.banner-greetings {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 350px;
+  top: 100px;
+}
+
+.banner-title{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 145px;
+    left: 250px;
+    width: 50%;
 }
