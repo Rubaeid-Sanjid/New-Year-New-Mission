@@ -87,6 +87,13 @@ body {
 .welcome-greeting {
   padding-left: 80px;
 }
+
+.welcome-greeting button{
+  text-transform: uppercase;
+  color: #fff;
+  background: none;
+  border: none;
+}
 .welcome-title {
   color: #fff;
   font-size: 40px;
@@ -103,14 +110,39 @@ body {
   padding-right: 50px;
 }
 .location {
-  height: 250px;
-  margin: 130px 200px;
+  height: 300px;
+  margin: 120px 200px;
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
   text-align: center;
-  padding-top: 60px;
-  border: 2px solid black;
+  padding-top: 80px;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.location span {
+  color: #f00;
+}
+.location button {
+  border-radius: 6px;
+  background: #f00;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border: none;
+}
+
+.portfolio-section{
+  height: 600px;
+  margin: 120px 200px;
+}
+
+.products img{
+  height: 200px;
+  width: 200px;
 }
