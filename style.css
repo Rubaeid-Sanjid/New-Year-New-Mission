@@ -6,24 +6,27 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
 }
-
+.header{
+  padding: 40px 0;
+}
 .banner {
-  height: 600px;
+  height: 424px;
   max-width: 70%;
   margin: auto;
-  background-image: url("images/Banner\ Image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Banner\ Image.png");
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
+  border-radius: 10px;
 }
 
 .banner-greetings {
   color: #fff;
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 400;
   position: absolute;
-  left: 350px;
+  left: 380px;
   top: 100px;
 }
 
@@ -32,7 +35,7 @@ body {
   font-size: 50px;
   font-weight: 900;
   position: absolute;
-  top: 145px;
+  top: 140px;
   left: 250px;
   width: 50%;
 }
@@ -47,7 +50,7 @@ body {
 
 .offer-description {
   color: #f00;
-   font-size: 20px;
+   font-size: 16px;
   font-weight: 500;
   margin-bottom: 0;
 }
