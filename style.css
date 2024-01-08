@@ -134,6 +134,46 @@ body {
   margin-top: 20px;
 }
 
+.coming-soon-section{
+  height: 300px;
+  margin: 120px 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.coming-soon-description{
+  
+}
+.coming-soon-description h4{
+  color: #f00;
+  text-transform: uppercase;
+}
+.coming-soon-photo{
+  height: 200px;
+  width: 200px;
+  border: 8px solid #f00;
+  border-radius: 80%;
+  padding: 20px
+}
+.coming-soon-photo img{
+  height: 200px;
+  width: 200px;
+  
+}
+.coming-soon-description-2024 img{
+   height: 100px;
+   width: 100px;
+}
+.coming-soon-description-2024 h2{
+  color: #f00;
+  font-family: Inter;
+  margin-bottom: 10px;
+}
+.coming-soon-description-2024 p{
+  margin-bottom: 20px;
+}
+
 .portfolio-section {
   height: 700px;
   margin: 120px 200px;
