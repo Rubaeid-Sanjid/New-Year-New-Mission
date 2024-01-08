@@ -83,18 +83,34 @@ body {
 .welcome-banner img {
   height: 350px;
 }
+
 .welcome-greeting {
-  padding: 100px;
+  padding-left: 80px;
 }
 .welcome-title {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
   margin: 10px 0 0 0;
+  padding-right: 130px;
 }
 .welcome-description {
   color: #fff;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
   margin-bottom: 40px;
+}
+.welcome-banner-pic {
+  padding-right: 50px;
+}
+.location {
+  height: 250px;
+  margin: 130px 200px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  padding-top: 60px;
+  border: 2px solid black;
 }
