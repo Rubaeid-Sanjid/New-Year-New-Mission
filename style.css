@@ -133,7 +133,7 @@ body {
 }
 
 .portfolio-section {
-  height: 600px;
+  height: 700px;
   margin: 120px 200px;
 }
 .portfolio-section h4 {
@@ -155,7 +155,7 @@ body {
 
 .subscribe-section{
   height: 400px;
-  margin: 380px 200px;
+  margin: 270px 200px 120px 200px;
   text-align: center;
   padding-top: 80px;
   border-radius: 10px;
@@ -186,4 +186,20 @@ background: rgba(255, 0, 0, 0.05);
 background: #F00;
 color: #fff;
 padding: 12px 25px 
+}
+
+footer{
+  background: #070211;
+  height: 500px;
+  width: 100%;
+padding-top: 50px;
+
+  color: #fff;
+  font-family: Inter;
+  
+
+}
+.address-container{
+  display: flex;
+  justify-content: space-around;
 }
