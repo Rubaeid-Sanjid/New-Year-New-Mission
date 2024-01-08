@@ -57,6 +57,7 @@ body {
 }
 
 .discount {
+  margin-top: 120px;
   text-align: center;
 }
 .discount img {
@@ -150,4 +151,39 @@ body {
   height: 300px;
   width: 298px;
   margin: 5px;
+}
+
+.subscribe-section{
+  height: 400px;
+  margin: 380px 200px;
+  text-align: center;
+  padding-top: 80px;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+
+background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-section img{
+  height: 120px;
+  width: 120px;
+}
+.subscribe-section .subscribe{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.subscribe input{
+  padding: 10px 100px 10px 15px;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+}
+.subscribe button{
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+background: #F00;
+color: #fff;
+padding: 12px 25px 
 }
