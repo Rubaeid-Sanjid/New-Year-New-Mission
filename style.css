@@ -6,16 +6,15 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
 }
-.header{
-  padding: 40px 0;
-}
+
 .banner {
   height: 424px;
   max-width: 70%;
-  margin: auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Banner\ Image.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  margin: 50px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/Banner\ Image.png");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
   text-align: center;
   position: relative;
   border-radius: 10px;
@@ -50,21 +49,52 @@ body {
 
 .offer-description {
   color: #f00;
-   font-size: 16px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 0;
 }
 
-.offer-title{
-font-size: 40px;
-font-weight: 700;
-margin: 8px;
+.offer-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 8px;
 }
 
-.discount{
+.discount {
   text-align: center;
 }
 
-.discount img{
+.discount img {
   width: 50%;
+}
+
+.welcome-banner {
+  height: 424px;
+  max-width: 70%;
+  margin: 120px auto;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/Vectorrr.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-banner img {
+  height: 350px;
+}
+.welcome-greeting {
+  padding: 100px;
+}
+.welcome-title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 10px 0 0 0;
+}
+.welcome-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
