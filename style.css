@@ -153,7 +153,7 @@ body {
   margin: 5px;
 }
 
-.subscribe-section{
+.subscribe-section {
   height: 400px;
   margin: 270px 200px 120px 200px;
   text-align: center;
@@ -163,43 +163,62 @@ body {
   font-size: 18px;
   font-weight: 600;
 
-background: rgba(255, 0, 0, 0.05);
+  background: rgba(255, 0, 0, 0.05);
 }
-.subscribe-section img{
+.subscribe-section img {
   height: 120px;
   width: 120px;
 }
-.subscribe-section .subscribe{
+.subscribe-section .subscribe {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
 
-.subscribe input{
+.subscribe input {
   padding: 10px 100px 10px 15px;
   border-radius: 50px 0px 0px 50px;
   border: none;
 }
-.subscribe button{
+.subscribe button {
   border-radius: 0px 50px 50px 0px;
   border: none;
-background: #F00;
-color: #fff;
-padding: 12px 25px 
+  background: #f00;
+  color: #fff;
+  padding: 12px 25px;
 }
 
-footer{
+footer {
   background: #070211;
-  height: 500px;
+  height: 400px;
   width: 100%;
-padding-top: 50px;
-
+  padding-top: 100px;
   color: #fff;
   font-family: Inter;
-  
-
 }
-.address-container{
+
+footer hr{
+  margin: 0px 240px;
+}
+.address-container {
   display: flex;
   justify-content: space-around;
+}
+
+.social-icon-container {
+  padding: 20px;
+  text-align: center;
+}
+.social-icon-container img {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.copyright-section {
+  display: flex;
+  justify-content: space-around;
+}
+.copyright-section a {
+  text-decoration: none;
+  color: #fff;
 }
